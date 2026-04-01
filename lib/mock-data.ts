@@ -1,4 +1,4 @@
-import type { Prestamo, PuntoMovimiento } from '@/types/database';
+import type { Prestamo, PuntoMovimiento } from '../types/database';
 
 export const MOCK_PRESTAMOS: Prestamo[] = [
   {

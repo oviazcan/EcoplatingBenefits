@@ -10,8 +10,8 @@ import {
 } from 'react-native';
 import { router, Stack } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
-import { useTheme } from '@/lib/theme';
-import { Spacing, FontSize, BorderRadius } from '@/lib/constants';
+import { useTheme } from '../../../lib/theme';
+import { Spacing, FontSize, BorderRadius } from '../../../lib/constants';
 
 const MONTOS = [1000, 2000, 3000, 5000];
 const PLAZOS = [4, 8, 12];

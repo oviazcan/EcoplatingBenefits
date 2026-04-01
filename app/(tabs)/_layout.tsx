@@ -1,7 +1,7 @@
 import { Tabs } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
-import { useTheme } from '@/lib/theme';
-import { FontSize } from '@/lib/constants';
+import { useTheme } from '../../lib/theme';
+import { FontSize } from '../../lib/constants';
 
 type TabIcon = React.ComponentProps<typeof Ionicons>['name'];
 

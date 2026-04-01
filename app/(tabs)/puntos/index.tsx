@@ -1,9 +1,9 @@
 import { View, Text, StyleSheet, ScrollView, FlatList } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
-import { useTheme } from '@/lib/theme';
-import { MOCK_PUNTOS, getMockPuntosTotal, getMockPuntosPorSemana } from '@/lib/mock-data';
-import { getNivel } from '@/types/database';
-import { Spacing, FontSize, BorderRadius } from '@/lib/constants';
+import { useTheme } from '../../../lib/theme';
+import { MOCK_PUNTOS, getMockPuntosTotal, getMockPuntosPorSemana } from '../../../lib/mock-data';
+import { getNivel } from '../../../types/database';
+import { Spacing, FontSize, BorderRadius } from '../../../lib/constants';
 
 const NIVEL_CONFIG = {
   Bronce: { color: '#CD7F32', icon: 'shield' as const, next: 150, label: 'Plata' },

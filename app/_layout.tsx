@@ -2,10 +2,10 @@ import { useEffect, useState, useCallback } from 'react';
 import { Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import { useColorScheme } from 'react-native';
-import { AuthContext } from '@/hooks/useAuth';
-import { authenticateUser, getStoredUser, clearStoredUser } from '@/lib/auth';
-import type { Empleado } from '@/types/database';
-import { Colors } from '@/lib/constants';
+import { AuthContext } from '../hooks/useAuth';
+import { authenticateUser, getStoredUser, clearStoredUser } from '../lib/auth';
+import type { Empleado } from '../types/database';
+import { Colors } from '../lib/constants';
 
 export default function RootLayout() {
   const [user, setUser] = useState<Empleado | null>(null);

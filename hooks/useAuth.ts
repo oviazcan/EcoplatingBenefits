@@ -1,5 +1,5 @@
 import { createContext, useContext } from 'react';
-import type { Empleado } from '@/types/database';
+import type { Empleado } from '../types/database';
 
 export interface AuthState {
   user: Empleado | null;

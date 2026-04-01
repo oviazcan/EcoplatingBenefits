@@ -10,9 +10,9 @@ import {
   Alert,
 } from 'react-native';
 import { router } from 'expo-router';
-import { useAuth } from '@/hooks/useAuth';
-import { useTheme } from '@/lib/theme';
-import { Spacing, FontSize, BorderRadius } from '@/lib/constants';
+import { useAuth } from '../hooks/useAuth';
+import { useTheme } from '../lib/theme';
+import { Spacing, FontSize, BorderRadius } from '../lib/constants';
 
 export default function LoginScreen() {
   const [numeroEmpleado, setNumeroEmpleado] = useState('');

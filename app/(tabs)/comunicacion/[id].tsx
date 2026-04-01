@@ -1,8 +1,8 @@
 import { View, Text, StyleSheet, ScrollView } from 'react-native';
 import { useLocalSearchParams, Stack } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
-import { useTheme } from '@/lib/theme';
-import { Spacing, FontSize, BorderRadius } from '@/lib/constants';
+import { useTheme } from '../../../lib/theme';
+import { Spacing, FontSize, BorderRadius } from '../../../lib/constants';
 
 const AVISOS_DETALLE: Record<string, { titulo: string; contenido: string; categoria: string; prioridad: string; fecha: string }> = {
   '1': {

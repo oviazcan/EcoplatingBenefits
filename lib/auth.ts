@@ -1,5 +1,5 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import type { Empleado } from '@/types/database';
+import type { Empleado } from '../types/database';
 
 const USER_KEY = '@ecoplating_user';
 

@@ -1,11 +1,11 @@
 import { View, Text, StyleSheet, ScrollView, TouchableOpacity } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { router } from 'expo-router';
-import { useAuth } from '@/hooks/useAuth';
-import { useTheme } from '@/lib/theme';
-import { getMockPuntosTotal } from '@/lib/mock-data';
-import { getNivel } from '@/types/database';
-import { Spacing, FontSize, BorderRadius } from '@/lib/constants';
+import { useAuth } from '../../hooks/useAuth';
+import { useTheme } from '../../lib/theme';
+import { getMockPuntosTotal } from '../../lib/mock-data';
+import { getNivel } from '../../types/database';
+import { Spacing, FontSize, BorderRadius } from '../../lib/constants';
 
 const AVISOS_RECIENTES = [
   {

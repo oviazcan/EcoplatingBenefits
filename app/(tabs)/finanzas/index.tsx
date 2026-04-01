@@ -1,9 +1,9 @@
 import { View, Text, StyleSheet, ScrollView, TouchableOpacity } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { router, Stack } from 'expo-router';
-import { useTheme } from '@/lib/theme';
-import { MOCK_PRESTAMOS } from '@/lib/mock-data';
-import { Spacing, FontSize, BorderRadius } from '@/lib/constants';
+import { useTheme } from '../../../lib/theme';
+import { MOCK_PRESTAMOS } from '../../../lib/mock-data';
+import { Spacing, FontSize, BorderRadius } from '../../../lib/constants';
 
 const ESTADO_CONFIG = {
   pendiente: { icon: 'time' as const, color: '#EAB308', label: 'Pendiente' },

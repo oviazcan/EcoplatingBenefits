@@ -1,9 +1,9 @@
 import { View, Text, StyleSheet, FlatList, TouchableOpacity } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { router } from 'expo-router';
-import { useTheme } from '@/lib/theme';
-import { Spacing, FontSize, BorderRadius } from '@/lib/constants';
-import type { Aviso } from '@/types/database';
+import { useTheme } from '../../../lib/theme';
+import { Spacing, FontSize, BorderRadius } from '../../../lib/constants';
+import type { Aviso } from '../../../types/database';
 
 // Demo data - en produccion viene de Supabase
 const AVISOS: (Aviso & { leido: boolean })[] = [
