@@ -6,7 +6,7 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": false,
+    "newArchEnabled": true,
     "scheme": "ecoplating",
     "splash": {
       "image": "./assets/splash-icon.png",
@@ -27,6 +27,6 @@
       "favicon": "./assets/favicon.png",
       "bundler": "metro"
     },
-    "plugins": ["expo-router", "expo-secure-store", "expo-font"]
+    "plugins": ["expo-router", "expo-secure-store"]
   }
 }
